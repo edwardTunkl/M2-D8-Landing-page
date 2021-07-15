@@ -33,7 +33,7 @@
 
         <div class="btn btn-group">
           
-        <div class="text-center text-white rounded-left d-flex align-items-center d-flex justify-content-center" style="height: 400px; width: 400px; background-color: rgb(101, 189, 101); border: 3px solid black; ;" role="group" aria-label="...">
+        <div class="text-center text-white rounded-left d-flex align-items-center d-flex justify-content-center" style="height: 400px; width: 400px; background-color: rgb(101, 189, 101); border: 3px solid black; border-top-left-radius: 20px;" role="group" aria-label="...">
           <div>
           <p>
             First Column <br>
@@ -79,12 +79,11 @@
 
     <div class="container">
         <h1 class="text-center pt-4 pb-4">Exercise 2</h1>
-
       <div class="container">
         <div class="row px-0">
         <div class="col px-0">
         <div class="card" style="width: 18rem;">
-          <button type="button" class=" btn btn-link">Free</button>
+          <button type="button" class=" btn btn-light border-bottom">Free</button>
           <div class="card-body">
             <h2 class="card-title text-center"><span style="font-weight: bolder;">€0</span>/mo</h2>
             <p class="card-text text-center">10 users included <br> 2 GB of storage <br> Email support <br> Help center access</p>
@@ -94,7 +93,7 @@
       </div>
       <div class="col px-0">
         <div class="card" style="width: 18rem;">
-          <button type="button" class="btn btn-light">Pro</button>
+          <button type="button" class="btn btn-light border-bottom">Pro</button>
           <div class="card-body">
             <h2 class="card-title text-center"><span style="font-weight: bolder;">€15</span>/mo</h2>
             <p class="card-text text-center">20 users included <br> 10 GB of storage <br> Priority email support <br> Help center access</p>
@@ -104,7 +103,7 @@
       </div>
       <div class="col px-0">
         <div class="card" style="width: 18rem;">
-        <button type="button" class="btn btn-light">Enterprise</button>
+        <button type="button" class="btn btn-light border-bottom">Enterprise</button>
         <div class="card-body">
           <h2 class="card-title text-center"><span style="font-weight: bolder;">€29</span>/mo</h2>
           <p class="card-text text-center">30 users included <br> 15 GB of storage <br> Phone and email support <br> Help center access</p>
@@ -115,7 +114,9 @@
       </div>
       </div>
     </div>
-    
+
+
+    <!-- Exercise 3 -->
 
 <div class="container">
         <h1 class="text-center pt-4 pb-4">Exercise 3</h1>
@@ -125,12 +126,16 @@
             <button type="button" class="btn btn-secondary btn-lg" style="height : 200px">Thumbnail</button>
             <div class="card-body">
               <p class="card-text ">Here you can place your video description, in order to inform the user of what to expect by clicking on the link</p>
-              <div class="d-flex" >
-              <div class="btn-group" role="group" aria-label="Basic example">
+              <div class="row">
+                <div class="col">
+              <div class="btn-group " role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-white border-dark">View</button>
                 <button type="button" class="btn btn-white border-dark">Edit</button>
               </div >
-              <p class="card-text d-inline-flex d-flex justify-content-end"><small class="text-muted">9mins</small></p>
+              </div>  
+              <div class="col d-flex justify-content-end ">
+              <p><small class="text-muted">9mins</small></p>
+            </div>
             </div>
             </div>
           </div>
@@ -138,8 +143,17 @@
             <button type="button" class="btn btn-secondary btn-lg" style="height : 200px">Thumbnail</button>
             <div class="card-body">
               <p class="card-text">Here you can place your video description, in order to inform the user of what to expect by clicking on the link</p>
-
-              <p class="card-text"><small class="text-muted">9mins</small></p>
+            
+              <div class="d-flex">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-secondary">Left</button>
+                  <button type="button" class="btn btn-secondary">Middle</button>
+                  <button type="button" class="btn btn-secondary">Right</button>
+                </div>
+              <span class="ml-auto">
+                <p class="card-text"><small class="text-muted">9mins</small></p>
+              </span>
+              </div>
             </div>
           </div>
           <div class="card">
